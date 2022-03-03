@@ -1,0 +1,13 @@
+/* Genéricos */
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1,h2 {
+    text-transform: uppercase;
+    background-color: #c4c4c4;
+    color: #005677;
+    
+
+}
