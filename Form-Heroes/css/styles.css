@@ -1,0 +1,169 @@
+html {
+  font-family: "Inter", sans-serif;
+}
+
+form {
+  flex-grow: 1;
+}
+
+h2 {
+  font-size: 42px;
+  padding: 0;
+  margin: 0;
+}
+
+#form {
+  width: 60%;
+  padding: 10px;
+  margin: auto;
+  background-color: cornflowerblue;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  box-sizing: border-box;
+}
+
+#main-form {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+#left {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  border: none;
+  box-sizing: border-box;
+}
+
+#left label {
+  text-align: left;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+#label-fecha {
+  margin: 10px 0;
+}
+
+label {
+  margin: 4px;
+  box-sizing: border-box;
+}
+
+#descripcion {
+  margin-top: 20px;
+}
+
+#right {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  border: none;
+  box-sizing: border-box;
+}
+
+#right label {
+  text-align: left;
+}
+
+#right section {
+  display: flex;
+}
+
+#right .label-right {
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+
+#label-especie {
+  padding: 5px;
+}
+
+#label-foto {
+  margin: 10px 0;
+  padding-left: 0;
+}
+
+.input-style {
+  margin: 5px 0;
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+}
+
+select {
+  width: 100%;
+}
+
+#foto {
+  margin: 15px 0;
+}
+
+.label-right {
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+#right section {
+  margin: 5px 0;
+}
+
+#border {
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
+}
+
+section label {
+  padding-left: 15px;
+}
+
+.checkboxs {
+  font-size: 12px;
+}
+
+#label-tipo {
+  padding-left: 0;
+  margin: 10px 0;
+}
+
+button {
+  border: none;
+  background-color: aquamarine;
+  padding: 15px;
+  width: 300px;
+  font-size: 24px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+  background-color: rgb(90, 182, 151);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#nombre:focus {
+  border: 2px solid black;
+}
+
+/* AÑADIR PSEUDOCLASES (AL MENOS 5) A LOS INPUTS
+
+CAMBIAR EL BUTTON POR ALGO MAS FACHERO */
+
+/* PSEUDOELEMENTOS: CREAN NUEVOS ELEMENTOS A PARTIR DE CSS */
+
+/*
+
+::after 
+
+::before
+
+*/
