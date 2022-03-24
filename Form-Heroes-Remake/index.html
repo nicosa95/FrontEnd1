@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke-Form</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body>
+    <!--Form Modificado con la temática de Pokemon-->
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+
+    <main>
+        <div id="formCard">
+            
+            <section id="tittleForm"> 
+                <!-- sECCION DE TÍTULO DEL FORM-->
+                <h1>Who's that Pokemon?</h1>
+                <p>Add what you discovered about this unknown Pokemon</p>
+            </section>
+            
+            <form action="" method="post"> <!--No molesta tener el form antepuesto del título del mismo??-->
+
+                <section id="mainSection">
+                    <fieldset id="form-left">
+                    <!--    Secion Izquierda-->
+                        <!--Configuracion para input tipo text- for y name de cada etiqueta tienen que ser las mismas-->
+                        <label for="nombre">Name</label>
+                        <input type="text" name="nombre" id="nombre" class="input-style">
+                        
+                        <!--Configuracion para input tipo date. te abre un calendario para seleccion dd/mm/yyyy--> 
+                        <label for="Date">Date Discovered</label>
+                        <input type="date" name="Date" id="Date" class="input-style">
+
+                        <!--Confiracion de un área de texto simple -->
+                        <textarea name="descripcion" id="descripcion" cols="30" rows="15" placeholder="Description" class="input-style"></textarea>
+
+                    </fieldset>
+
+                    <fieldset id="form-right">
+                    <!--Seccion Derecha-->
+
+                    <!--Selector de Region de pokemon-->
+                    <label for="Region" id="region">In wich region did you discover it?</label>
+                        <select name="Region" id="region" class="input-style">
+                        <option value="Region" aria-placeholder="Region">Kanto</option>
+                        <option value="Region" aria-placeholder="Region">Jhoto</option>
+                        <option value="Region" aria-placeholder="Region">Hoenn</option>
+                        <option value="Region" aria-placeholder="Region">Sinnoh</option>
+                        <option value="Region" aria-placeholder="Region">Unova</option>
+                        <option value="Region" aria-placeholder="Region">Kalos</option>
+                        <option value="Region" aria-placeholder="Region">Alola</option>
+                        <option value="Region" aria-placeholder="Region">Galar</option>
+                        </select>
+                    
+
+
+
+                        <!--Configuracion Type 1 de poke-->
+                        <label for="Type1">Type 1</label>
+                        <input type="text" name="Type1" id="Type1" class="input-style">
+                        
+                        <!--Configuracion Type 2 de poke-->
+                        <label for="Type2">Type 2</label>
+                        <input type="text" name="Type2" id="Type2" class="input-style">
+
+                        <!--Configuracion para una insert- en este caso una foto-->
+                        <label for="Photo">Could you get a Pic? Upload it!</label>
+                        <input type="file" name="Photo" id="Photo" placeholder="Choose it">
+
+                        <!--Agrupo contenido de habilidades potenciadas-->
+                        <label for="power-up">Best Stats</label>
+                        <section>
+                            <input type="checkbox" name="Attack" id="Attack">
+                            <label for="Attack">Attack</label>
+                        </section>
+                        <section>
+                            <input type="checkbox" name="SpecialAttack" id="SpecialAttack">
+                            <label for="SpecialAttack">Special Attack</label>
+                        </section><section>
+                            <input type="checkbox" name="Defense" id="Defense">
+                            <label for="Defense">Defense</label>
+                        </section><section>
+                            <input type="checkbox" name="SpecialDefense" id="SpecialDefense">
+                            <label for="SpecialDefense">Special Defense</label>
+                        </section><section>
+                            <input type="checkbox" name="Speed" id="Speed">
+                            <label for="Speed">Speed</label>
+                        </section><section>
+                            <input type="checkbox" name="Lucky" id="Lucky">
+                            <label for="Lucky">Lucky</label>
+                        </section>
+
+                        <hr>
+                        <!--Break entre Secciones-->
+
+                        <!--Tipo de Pokemon-->
+
+                        <label for="Poke-Rank">Poke-Rank</label>
+                        <section>
+                            <input type="checkbox" name="legendary" id="legendary">
+                            <label for="legendary">Legendary</label>
+                        </section>
+                        <section>
+                            <input type="checkbox" name="semilegendary" id="semilegendary">
+                            <label for="semilegendary">Semi-Legendary</label>
+                        </section>
+                        <section>
+                            <input type="checkbox" name="normal" id="normal">
+                            <label for="normal">Normal</label>
+                        </section>
+                    </fieldset>
+                </section>
+                <!--Main boton para añadir tu propio poke-->
+                <button type="submit"> 
+                Catch them all!
+                </button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

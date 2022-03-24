@@ -1,0 +1,91 @@
+/*Alineo los elementos del form al medio*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+/*el ID formCard responde directamente a todo el div que contiene los elementos del form*/
+#formCard{
+    background-color: #ee1515;
+    width: auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 50px 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tittleForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: antiquewhite;
+
+}
+
+#mainSection{
+    display: flex;
+    flex-direction: row;
+}
+
+fieldset{
+    /*Separo ambas columnas del form*/
+    padding: 1%;
+}
+
+
+
+input,select, textarea{
+    border:none;
+    border-radius: 10px
+}
+#Photo{
+    background-color: yellow;
+}
+
+
+label{
+    color: ;
+}
+#form-right{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#form-left{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+hr{
+ 
+    color: white;
+    background-color: white;
+    font-weight: 700;
+}
+
+button {
+    border-radius: 10px;
+    width:auto;
+    padding:5px;
+    border:black,solid;
+    
+    
+
+}
