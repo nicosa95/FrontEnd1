@@ -1,0 +1,82 @@
+/*Css para el proyecto Final -  Home Manage*/
+
+*{
+    margin:0px;
+    padding:0px:
+}
+
+/*Header y nav*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*Controlar este Justif*/
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    /*ojo con la forma de espaciar los items del nava*/
+}
+
+
+/*Section de Home*/
+
+#secHome{
+    display: flex;
+    flex-direction: row;
+}
+
+#secHomeLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /*Con esto los tiro a la derecha*/
+}
+
+/*Section About Us*/
+
+#secAboutUs{
+    display: flex;
+    flex-direction: row;
+}
+
+/*Section Opinion*/
+
+#secOpinion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Section Get Started!*/
+
+#secGetStarted{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F3613C;
+    
+}
+
+/*Footer!*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+#footerLink{
+    display: flex;
+}
+
+#footerLinkLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+#footerLinkRight{
+    display: flex;
+    flex-direction: column;
+}
