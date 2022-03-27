@@ -1,0 +1,14 @@
+header{
+    background-image: url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/linkedin%2C-event-design-template-9ea8946b86bda7ca65cdbf18e7ab21b1_screen.jpg?ts=1593443473');
+    height:200px;
+    color:bisque;
+}
+
+#nombre{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    text-align: center;
+}

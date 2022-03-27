@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Karla&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+body main{
+    position: absolute;
+    width: 954px;
+    height: 832px;
+    left: 243px;
+    top: 184px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    background: #00669F;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49.0901px
+}
+body main div{
+    width: 300px;
+    height: 72px;    
+}
+
+body main div h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 72px;
+}
+
+body main h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 14px;
+}
+
+body main .formulario{
+    display: flex;
+    height: 582px;
+}
+
+body main .formulario section form{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    width: 100%;
+    height: 100%;
+ }
+
+#nombre, #fecha, #especie{
+    width: 343px;
+    height: 63px;
+    left: 366px;
+    top: 329px;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 15.3407px;
+}
+
+.poderes, .tipoPersonaje{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.poderes{
+    height: 189px;
+}
+
+.tipoPersonaje{
+    height: 102px;
+}
+
+.izquierda .derecha{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+}
+
+.derecha{
+    margin-left: 21px;
+}
+
+.formIzquierda, .formDerecha{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+}
+
+textarea{
+    width: 343px;
+    height: 307px;
+    border-radius: 15.3407px;   
+}
+
+
+button{
+    width: 466px;
+    height: 87px;   
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin: 18px;
+}
+
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 61px;
+    left: -1px;
+    top: 1055px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
