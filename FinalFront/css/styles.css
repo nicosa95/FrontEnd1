@@ -56,6 +56,27 @@ nav{
     gap: 36px;
 }
 
+
+/*Lista*/
+
+/*Lo unico que puedo hacer hasta ahora es insertar los iconos, fijate que no quedan nivelados!!!*/
+
+#li1{
+    list-style-image: url(../img/LI1.svg);
+}
+
+#li2{
+    list-style-image: url(../img/LI2.svg);
+}
+
+#li3{
+    list-style-image: url(../img/LI3.svg);
+}
+
+li::before{
+    /*wtf?*/
+}
+
 /*Section Opinion*/
 
 #secOpinion{
@@ -64,6 +85,43 @@ nav{
     align-items: center;
 }
 
+#areaOpinion{
+    display: flex;
+    flex-direction: row;
+    margin: 120px 71px;
+}
+
+#cardOpinion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FAFAFA;
+    align-items: center;
+}
+
+#cardOpinion img{
+    position:relative;
+    bottom: 35px;
+}
+
+.Avatar{
+    color: #3F4868;
+    font-weight: 700;
+}
+
+.textOpinion{
+    color: #B9B9C1;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    padding: 21px 28px 39px;
+}
+
+#cardOpinion img{
+    width: 70px;
+    height: 70px;
+}
 /*Section Get Started!*/
 
 #secGetStarted{
@@ -211,4 +269,8 @@ h5{
     font-size: 40px;
     color:#FFFFFF;
 }
+
+
+
+/*Animaciones*/
 

@@ -54,19 +54,19 @@ body {
 }
 
 .bat {
-    background-image: url(/img/portada-batman.png);
+    background-image: url(../img/portada-batman.png);
 }
 
 .ww {
-    background-image: url(/img/portada-wwoman.png);
+    background-image: url(../img/portada-wwoman.png);
 }
 
 .hl{
-    background-image: url(/img/portada-Harley.png);
+    background-image: url(../img/portada-Harley.png);
 }
 
 .sm{
-    background-image: url(/img/portada-superman.png);
+    background-image: url(../img/portada-superman.png);
 }
 
 .fas {
