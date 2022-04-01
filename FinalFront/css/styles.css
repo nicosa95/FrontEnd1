@@ -13,7 +13,6 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /*Controlar este Justif*/
     align-items: center;
     padding: 65px 165px;
 }
@@ -30,12 +29,17 @@ nav a:hover{
     cursor: pointer;
 }
 
+#anvorguesa{
+    display: none;
+}
+
 /*Section de Home*/
 
 #secHome{
     display: flex;
     flex-direction: row;
     padding:0 165px;
+    justify-content: space-between;
 }
 
 #secHomeLeft{
@@ -46,6 +50,9 @@ nav a:hover{
     gap:28px;
 }
 
+#secHomeRight{
+    width: 580px;
+}
 /*Section About Us*/
 
 #secAboutUs{
@@ -81,26 +88,12 @@ nav a:hover{
     flex-direction: column;
     gap: 20px;
 }
-/*Lista*/
 
-/*Lo unico que puedo hacer hasta ahora es insertar los iconos, fijate que no quedan nivelados!!!*/
-
-#li1{
-    list-style-image: url(../img/LI1.svg);
+.listText p{
+    color: #B3B2B7;
 }
 
-#li2{
-    list-style-image: url(../img/LI2.svg);
-}
 
-#li3{
-    list-style-image: url(../img/LI3.svg);
-}
-
-li{
-    align-items: center;
-    margin-bottom: 30px;
-}
 
 /*Section Opinion*/
 
@@ -324,4 +317,142 @@ h5{
 
 
 /*Animaciones*/
+
+/*Media Querys*/
+
+@media (max-width : 376px){
+
+    *{
+        margin: 0px;
+        padding:0px;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding:0px;
+        padding:5vw 5vw ;
+    }
+    
+    /*Oculto el nav con los hipervinculos*/
+
+    nav, section #btnNav{
+        display: none;
+    }
+
+    #anvorguesa{
+        display: inline;
+    }
+
+    
+    
+    
+    /*Querys de cada Seccion*/
+    #secHome{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vw;
+        padding: 0px;
+    }
+    #secHomeLeft{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    #secHome p{
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    #secHomeRight{
+        width: 100vw;
+    }  
+
+    /*Section About Us*/
+
+    #secAboutUs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #aboutUsLeft{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 36px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    #aboutUsLeft *{
+        text-align: center;
+    }
+
+    #aboutUsRight{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+.ElementoLista{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+}
+.listText{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.listText p{
+    color: #B3B2B7;
+}
+    
+    /*Seccion Opinion*/
+
+    #secOpinion{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    #areaOpinion{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #secGetStarted{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+        height: 400px;
+        width:100vw;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+
+    /*Section Get Started!*/
+
+    h5{
+        text-align: center;
+        font-size: 25px;
+    }
+}
 
