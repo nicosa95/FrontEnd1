@@ -82,6 +82,27 @@ nav a:hover{
     align-items: flex-start;
     gap: 30px;
 }
+
+.ElementoListo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.headerElemento{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.headerElemento h4{
+    padding-top: 10px;
+}
+
+.ElementoListo p{
+    padding-left: 90px;
+}
+
 .listText{
     padding-top: 10px;
     display: flex;
