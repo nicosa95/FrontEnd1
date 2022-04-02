@@ -218,9 +218,7 @@ input{
     padding:0 10px;
 }
 
-#btnGo{
-    width: 63px;
-}
+
 
 /*Footer Texto*/
 
@@ -246,14 +244,9 @@ input{
     cursor: pointer;
 }
 
-#footerIcon svg{
-    fill: #F3613C;
-    cursor: pointer;
-}
-
 /*Botones*/
 
-button{
+button, #btnGo{
     background-color: #F3603B;
     color: #FFFFFF;
     border-radius: 50px;
@@ -265,7 +258,9 @@ button{
     
 }
 
-
+#btnGo{
+    width: 63px;
+}
 
 #btnSecGetStarted{
     background-color: #FFFFFF;
@@ -280,7 +275,7 @@ button{
 
 /*Animaciones de botones*/
 
-button:hover{
+button:hover, #btnGo:hover{
     background-color: #e79e8c;
     cursor: pointer;  
 }
